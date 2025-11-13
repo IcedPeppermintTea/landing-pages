@@ -1,0 +1,31 @@
+/* CSS file for landing-page-1.html */
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.navbar {
+    background-color: #252F38;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header-logo {
+    font-weight: 600;
+}
+
+.header-links{
+    display: flex;
+    list-style-type: none;
+}
