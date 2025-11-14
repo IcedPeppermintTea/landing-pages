@@ -129,10 +129,36 @@ html, body {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    max-width: 700px;
 }
 
 .quote-name {
     font-size: 18px;
     font-weight: 900;
     text-align: end;
+}
+
+.cta {
+    background-color: #3882F6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 80px;
+    color: #F9FAF8;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 25px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
 }
