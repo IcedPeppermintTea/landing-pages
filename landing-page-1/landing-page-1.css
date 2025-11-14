@@ -13,10 +13,22 @@ html, body {
 *::after {
   box-sizing: inherit;
 }
-/* Navigation Bar */
-.navbar {
+
+.navbar,
+.hero {
     background-color: #1F2937;
     color: white;
+}
+
+.hero p,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Navigation Bar */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +44,6 @@ html, body {
 .header-links{
     display: flex;
     list-style-type: none;
-    color: #E5E7EB;
-    font-size: 18px;;
 }
 
 .header-links li{
@@ -51,12 +61,10 @@ html, body {
 
 /* Hero Section */
 .hero {
-    background-color: #1F2937;
-    color: white;
     display: flex;
     justify-content: space-between;
     margin: 0px 0px 10px 0px;
-    padding: 10px 80px;
+    padding: 10px 80px 40px 80px;
 }
 
 .hero h1 {
@@ -65,7 +73,22 @@ html, body {
     font-weight: 900;
 }
 
-.hero p {
-    font-size: 18px;
-    color: #E5E7EB;
+.primary-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.primary-button:hover {
+    background-color: white;
+    color: #3882F6;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 600px;
 }
