@@ -16,7 +16,8 @@ html, body {
 }
 
 .navbar,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
     color: white;
 }
@@ -123,6 +124,7 @@ html, body {
     text-align: center;
 }
 
+/* Quote Section */
 .quote {
     background-color: #E5E7EB;
     padding: 50px;
@@ -138,6 +140,7 @@ html, body {
 
 .quote p {
     max-width: 700px;
+    font-style: italic;
 }
 
 .quote-name {
@@ -145,6 +148,8 @@ html, body {
     font-weight: 900;
     text-align: end;
 }
+
+/* Call to Action Section */
 
 .cta {
     background-color: #3882F6;
@@ -161,4 +166,21 @@ html, body {
     border: 1px solid;
     border-color: white;
     border-radius: 5px;
+}
+
+.cta button:hover {
+    background-color: white;
+    color: #3882F6;
+    padding: 8px 25px;
+    border: 1px solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 80px;
+    text-align: center;
 }
